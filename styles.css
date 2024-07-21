@@ -7,18 +7,22 @@ body {
 header {
     background-color: black;
     color: white;
-    padding: 20px;
     text-align: center;
 }
 
 .top-image {
-    /* Estilo para a imagem de topo */
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-family: 'Arial Black', sans-serif;
     font-size: 36px;
-    margin-top: 20px;
 }
 
 nav ul {
@@ -28,6 +32,7 @@ nav ul {
     padding: 0;
 }
 
+/* distancia entre itens do menu */
 nav ul li {
     margin: 0 10px;
 }
@@ -48,6 +53,6 @@ section {
 footer {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 3px;
     text-align: center;
 }
